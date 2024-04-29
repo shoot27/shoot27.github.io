@@ -13,39 +13,39 @@ const text2 = document.querySelectorAll('.staff-introduce > p')[1];
 const text3 = document.querySelectorAll('.staff-introduce > p')[2];
 
 shuto.addEventListener('click', () => {
-  name.textContent = '佐藤一郎';
+  name.textContent = '田治米秋人';
   text1.textContent = `今の流行や街の人がどんなものに興味があるのかを見ながら、横浜や桜木町に買い物に行く事が多いです。最近は、スタッフと一緒にモデルさんの撮影をして、メイクやトータルコーディネイトなど、サロンワーク以外の勉強もしています。`;
   text2.textContent ='ミディアムからロングのナチュラルなウェーブスタイルが得意です。 ';
   text3.textContent = '髪型が決まった時や髪の悩みが解消された時って気分があがりますよね！！そんなうれしい時間が少しでも増えるように、お手伝いできたらうれしいです。';
-  img.src = "img/田治米秋人 (2).jpg";
+  img.src = "img/tajime.jpg";
   });
 sayaka.addEventListener('click', () => {
-  name.textContent = '山田花子';
+  name.textContent = '高橋元花';
   text1.textContent = `歩く。散歩というわけではないですが、普段は歩かない距離を歩いてみたり、街を歩いたり、話題の場所に出かけてみて観察しています。まだまだ知らない事や行った事のない所へ行くと、スタイルの勉強にもなりますし、新鮮でリフレッシュできます。`;
   text2.textContent ='ふんわりミディアムパーマスタイル';
   text3.textContent = 'お店にご来店して下さっている時間の居心地良さや普段の悩みや相談に、親身に向き合ってお話して解決に1歩近づけていけたらと思っています。';
-  img.src = "img/山田紗矢香 (2).jpg";
+  img.src = "img/model1.jpeg";
   });
 akito.addEventListener('click', () => {
-  name.textContent = '鈴木二郎';
+  name.textContent = '馬場春花';
   text1.textContent = `今の流行や街の人がどんなものに興味があるのかを見ながら、横浜や桜木町に買い物に行く事が多いです。最近は、スタッフと一緒にモデルさんの撮影をして、メイクやトータルコーディネイトなど、サロンワーク以外の勉強もしています。`;
   text2.textContent ='ミディアムからロングのナチュラルなウェーブスタイルが得意です。';
   text3.textContent = 'お店にご来店して下さっている時間の居心地良さや普段の悩みや相談に、親身に向き合ってお話して解決に1歩近づけていけたらと思っています。';
-  img.src = "img/大村暁人 (2).jpg";
+  img.src = "img/model2.jpg";
   });
 kaho.addEventListener('click', () => {
-  name.textContent = '田中洋子';
+  name.textContent = '塩田直人';
   text1.textContent = `友人とショッピングをしたり家でご飯を作って一緒に食べてホームパーティ風なことをしてみたり、少し遠くまでドライブに行ってその土地の物産を買ってきたりしています。`;
   text2.textContent ='くせ毛の方の縮毛矯正やそれにあきてきたロングの方のデジタルパーマ。くせ毛であきらめてしまっている方のスタイルの幅を広げます。';
   text3.textContent = 'お客様が自分でセットする時に「楽チン」「やりやすい」と少しでも再現しやすいようなスタイル作りを考えています。';
-  img.src = "img/中村花穂 (2).jpg";
+  img.src = "img/model3.jpg";
   });
 hiroki.addEventListener('click', () => {
-  name.textContent = '渡邊三郎';
+  name.textContent = '中村真衣';
   text1.textContent = `子育て真っ最中 自然の中で思いきり遊んでいます。`;
   text2.textContent ='エレガントなセミロングが得意';
   text3.textContent = '大人から子供まで幅の広い層のお客様の今一番似合うスタイルを提案出来るようにしています。';
-  img.src = "img/川上弘樹 (2).jpg";
+  img.src = "img/model4.jpg";
   });
   
 }
